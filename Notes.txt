@@ -1,0 +1,5 @@
+Notes
+Use splice instead of delete
+info.links.splice(1,1)
+info.links.push({"courses":"http://lynda.com/course"})
+for ( key in info.links)

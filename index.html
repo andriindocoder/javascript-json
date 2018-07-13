@@ -6,28 +6,31 @@
 </head>
 <body>
 	<h2>Links</h2>
-	<ul id="links">
-	</ul>
+	<ol id="links">
+	</ol>
 	<script>
 		var info = {
 			"full_name"	: "Andri Indocoder",
 			"title"		: "Web Developer",
-			"links"		: 
-				{ "blog"		: "http://indocoder.com" ,
-				 "facebook" 	: "http://facebook.com/andriindocoder" ,
-				 "twitter" 	: "http://twitter.com/andriindocoder" ,
-				 "youtube"		: "http://youtube.com/andriindocoder" ,
-				 "podcast"		: "http://feeds.feedburner.com/authoredcontent" }
+			"links"		: [
+				 { "blog"		: "http://indocoder.com" },
+				 { "facebook" 	: "http://facebook.com/andriindocoder" },
+				 { "twitter" 	: "http://twitter.com/andriindocoder" },
+				 { "youtube"		: "http://youtube.com/andriindocoder" },
+				 { "podcast"		: "http://feeds.feedburner.com/authoredcontent" }
+			]
 		};
 
 		var output = "";
 
-		for ( key in info.links) {
-			if (info.links.hasOwnProperty(key)) {
-				output += '<li>' + 
-				'<a href = "' + info.links[key] +
-				'">' + key + '</a>' +
-				'</li>';
+		for (var i=0; i<=info.links.length; i++){
+			for (key in info.links[i]){
+				if(info.links[i].hasOwnProperty(key)){
+					output += '<li>' +
+					'<a href="' + info.links[i][key] +
+					'">' + key + '</a>' +
+					'</li>';
+				}
 			}
 		}
 
