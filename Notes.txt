@@ -4,7 +4,9 @@ info.links.splice(1,1)
 info.links.push({"courses":"http://lynda.com/course"})
 for ( key in info.links)
 
-12. Parsing JSON data with AJAX Javascript and JSON Integration
+12. Parsing JSON data with AJAX 
 
 13. Communicating Accross Sites using JSONP
 	Prevent header-access-origin
+
+14. Using jQuery to Parse JSON feeds
