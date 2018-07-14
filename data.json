@@ -1,0 +1,11 @@
+{
+	"full_name"	: 	"Andri Wicaksono",
+	"title"		:	"Web Programmer",
+	"links"		: [
+		{	"blog"		:	"http://indocoder.com"	},
+		{	"facebook"	: 	"http://facebook.com/indocoder"	},
+		{	"podcast"	: 	"http://feeds.feedburner.com/indocoder"	},
+		{	"twitter"	: 	"http://twitter.com/indocoder"	},
+		{	"youtube"	: 	"http://youtube.com/indocoder"	}
+	]
+}

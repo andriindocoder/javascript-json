@@ -6,36 +6,8 @@
 </head>
 <body>
 	<h2>Links</h2>
-	<ol id="links">
-	</ol>
-	<script>
-		var info = {
-			"full_name"	: "Andri Indocoder",
-			"title"		: "Web Developer",
-			"links"		: [
-				 { "blog"		: "http://indocoder.com" },
-				 { "facebook" 	: "http://facebook.com/andriindocoder" },
-				 { "twitter" 	: "http://twitter.com/andriindocoder" },
-				 { "youtube"		: "http://youtube.com/andriindocoder" },
-				 { "podcast"		: "http://feeds.feedburner.com/authoredcontent" }
-			]
-		};
+	<ol id="links"></ol>
 
-		var output = "";
-
-		for (var i=0; i<=info.links.length; i++){
-			for (key in info.links[i]){
-				if(info.links[i].hasOwnProperty(key)){
-					output += '<li>' +
-					'<a href="' + info.links[i][key] +
-					'">' + key + '</a>' +
-					'</li>';
-				}
-			}
-		}
-
-		var update = document.getElementById('links');
-		update.innerHTML = output;
-	</script>
+	<script src="myscript.js"></script>
 </body>
 </html>
