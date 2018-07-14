@@ -1,4 +1,4 @@
-{
+dataHandler({
 	"full_name"	: 	"Andri Wicaksono",
 	"title"		:	"Web Programmer",
 	"links"		: [
@@ -8,4 +8,4 @@
 		{	"twitter"	: 	"http://twitter.com/indocoder"	},
 		{	"youtube"	: 	"http://youtube.com/indocoder"	}
 	]
-}
+});
